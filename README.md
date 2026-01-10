@@ -101,7 +101,8 @@ Developer & researcher focused on web security and reliable software architectur
 ### Core Principles
 
 - Security by design — minimize attack surface and apply least privilege.  
-- Privacy & responsible use — collect/process only what’s necessary; tools for ethical auditing and education.  
+- Privacy & responsible use — collect/process only what’s necessary; tools for ethical auditing and education.
+- Dependencies with explicit justification — I avoid libraries unless they provide a clear, auditable benefit, preferring controlled complexity over opaque dependencies.
 - Observability & traceability — telemetry and logs to enable reproducible audits.  
 - Simplicity & maintainability — prefer clear, auditable solutions and refactor when needed.  
 - Transparency & collaboration — docs, tests and open contribution flow.  
