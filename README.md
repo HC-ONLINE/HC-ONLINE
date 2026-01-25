@@ -8,7 +8,10 @@ Soy **desarrollador e investigador** centrado en seguridad y arquitectura de apl
 
 - 👨‍💻 **Rol:** Desarrollador backend y de seguridad, investigador de ciberseguridad y con experiencia en prácticas DevOps.
 
-- 🔭 **Actualmente trabajando en:** [CiberWebScan](https://github.com/HC-ONLINE/CiberWebScan) (reconocimiento), [ModelRouter](https://github.com/HC-ONLINE/ModelRouter) (orquestador LLM) y sistemas de gestión de identidad y acceso (IAM - [AccessManager](https://github.com/HC-ONLINE/AccessManager) y [PermissionManager](https://github.com/HC-ONLINE/PermissionManager)).
+- 🔭 **Actualmente trabajando en:** 
+  herramientas de reconocimiento y auditoría de seguridad ([CiberWebScan](https://github.com/HC-ONLINE/CiberWebScan), [LexGuard](https://github.com/HC-ONLINE/LexGuard)),
+  orquestación de LLMs ([ModelRouter](https://github.com/HC-ONLINE/ModelRouter))
+  y sistemas de gestión de identidad y acceso (IAM: [AccessManager](https://github.com/HC-ONLINE/AccessManager), [PermissionManager](https://github.com/HC-ONLINE/PermissionManager)).
 
 - 🌱 **Enfoque actual:** Consolidación de frontend moderno (Astro, Tailwind) y profundización en prácticas avanzadas de seguridad backend: rate limiting y control de acceso granular.
 
@@ -30,7 +33,7 @@ Los principios guían cómo diseño y mantengo mis proyectos. Son aplicables tan
   Evito introducir librerías si no aportan una ventaja clara y auditable; prefiero asumir complejidad controlada antes que dependencias opacas o difíciles de mantener.
 
 - Observabilidad y trazabilidad  
-  Telemetría, logs y métricas para facilitar debugging, alertas y auditorías reproducibles.
+  Telemetría, logs y reportes explicables para auditorías reproducibles y evaluación real de riesgo.
 
 - Simplicidad y calidad mantenible  
   Preferir soluciones claras y refactorizar cuando la complejidad crece.
@@ -76,6 +79,8 @@ Lenguajes, frameworks y herramientas que uso con frecuencia:
 
 - 🛡️ **[CiberWebScan](https://github.com/HC-ONLINE/CiberWebScan)**: Herramienta de reconocimiento pasivo para análisis de superficie de ataque.  
 
+- 🧠 **[LexGuard – PII Scanner](https://github.com/HC-ONLINE/LexGuard)**: Motor CLI-first para detección y correlación de PII, enfocado en riesgo real y alineado con cumplimiento normativo.
+
 - 🔑 **IAM Suite ([AccessManager](https://github.com/HC-ONLINE/AccessManager) / [PermissionManager](https://github.com/HC-ONLINE/PermissionManager))**: Proyectos centrados en la lógica de autorización y autenticación segura.  
 
 - 🎨 **[ORBIT-UI](https://github.com/HC-ONLINE/ORBIT-UI)**: Design system centrado en contratos explícitos y escalabilidad visual.
@@ -98,7 +103,7 @@ Lenguajes, frameworks y herramientas que uso con frecuencia:
 
 Developer & researcher focused on web security and reliable software architecture. I build practical tools for reconnaissance, orchestration and design systems.
 
-### Core Principles
+## Core Principles
 
 - Security by design — minimize attack surface and apply least privilege.  
 - Privacy & responsible use — collect/process only what’s necessary; tools for ethical auditing and education.
