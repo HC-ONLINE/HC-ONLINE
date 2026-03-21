@@ -50,29 +50,32 @@ Mis decisiones arquitectónicas no son aleatorias. Se basan en un conjunto de re
 
 ## 3) Tecnologías y herramientas
 
-Lenguajes, frameworks y herramientas que uso con frecuencia:
+No utilizo herramientas por tendencia, sino por control y adecuación al problema.
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/spring_boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Astro](https://img.shields.io/badge/astro-%23000000.svg?style=for-the-badge&logo=astro)
-![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github_actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+### Backend & Seguridad
 
-### Especialidades
+- **Python:** desarrollo de herramientas de auditoría, análisis de superficie de ataque y procesamiento de datos.  
 
-- **Seguridad & Auditoría:** Scraping responsable, fingerprinting y análisis de superficie de ataque (Python).  
+- **Java + Spring Boot:** construcción de APIs robustas con enfoque en control de acceso, validación y separación de responsabilidades.  
 
-- **Backend & APIs:** Diseño de arquitecturas asíncronas con streaming, gestión de fallbacks y rate limiting.  
+### Arquitectura & Sistemas
 
-- **Gestión de Identidad (IAM):** Implementación de modelos de autorización granular y criterios técnicos JWT vs Sesiones.  
+- **Diseño de APIs:** contratos explícitos, validación temprana y manejo de errores consistente.  
 
-- **Frontend Architecture:** Design systems CSS-first basados en tokens semánticos (Astro + Tailwind v4).  
+- **Control de acceso (IAM):** implementación de modelos RBAC/ABAC, separación entre autenticación y autorización, y evaluación de JWT vs sesiones según contexto.  
 
-- **DevOps:** Contenerización con Docker y automatización de despliegues vía GitHub Actions.
+- **Rate limiting & resiliencia:** estrategias de limitación, control de abuso y diseño tolerante a fallos.  
 
+- **Orquestación de LLMs:** routing, fallback entre proveedores y observabilidad de ejecución.
+
+### Infraestructura & Entrega
+
+- **Docker:** aislamiento de servicios y entornos reproducibles.  
+- **GitHub Actions:** automatización de builds, testing y despliegues.
+
+### Frontend (enfoque complementario)
+
+- **Astro + Tailwind:** construcción de interfaces ligeras orientadas a rendimiento, con sistemas de estilos basados en tokens.
 ---
 
 ## 4) Proyectos destacados
