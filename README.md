@@ -76,19 +76,30 @@ No utilizo herramientas por tendencia, sino por control y adecuación al problem
 ### Frontend (enfoque complementario)
 
 - **Astro + Tailwind:** construcción de interfaces ligeras orientadas a rendimiento, con sistemas de estilos basados en tokens.
+
 ---
 
 ## 4) Proyectos destacados
 
-- 🚀 **[ModelRouter](https://github.com/HC-ONLINE/ModelRouter)**: Orquestador de LLMs (Groq, OpenRouter, Ollama) con soporte para streaming y observabilidad.  
+- 🚀 **[ModelRouter](https://github.com/HC-ONLINE/ModelRouter)**  
+  Orquestador de LLMs orientado a control y resiliencia. Permite routing entre múltiples proveedores (Groq, OpenRouter, Ollama), manejo de fallbacks y ejecución con streaming.  
+  Diseñado con foco en observabilidad y control del flujo, evitando dependencias rígidas a un único proveedor.
 
-- 🛡️ **[CiberWebScan](https://github.com/HC-ONLINE/CiberWebScan)**: Herramienta de reconocimiento pasivo para análisis de superficie de ataque.  
+- 🛡️ **[CiberWebScan](https://github.com/HC-ONLINE/CiberWebScan)**  
+  Herramienta de reconocimiento pasivo enfocada en análisis de superficie de ataque sin interacción directa con el objetivo.  
+  Prioriza reducción de ruido, recolección estructurada de información y generación de datos útiles para auditorías reales.
 
-- 🧠 **[LexGuard – PII Scanner](https://github.com/HC-ONLINE/LexGuard)**: Motor CLI-first para detección y correlación de PII, enfocado en riesgo real y alineado con cumplimiento normativo.
+- 🧠 **[LexGuard – PII Scanner](https://github.com/HC-ONLINE/LexGuard)**  
+  Motor CLI-first para detección y correlación de PII. Diseñado para identificar riesgo real en lugar de coincidencias superficiales, con enfoque en trazabilidad y análisis contextual.  
+  Orientado a escenarios de cumplimiento y auditoría de datos sensibles.
 
-- 🔑 **IAM Suite ([AccessManager](https://github.com/HC-ONLINE/AccessManager) / [PermissionManager](https://github.com/HC-ONLINE/PermissionManager))**: Proyectos centrados en la lógica de autorización y autenticación segura.  
+- 🔑 **IAM Suite ([AccessManager](https://github.com/HC-ONLINE/AccessManager) / [PermissionManager](https://github.com/HC-ONLINE/PermissionManager))**  
+  Implementación modular de autenticación y autorización con separación estricta de responsabilidades.  
+  Enfocado en modelos de permisos granulares (RBAC/ABAC) y diseño de sistemas donde la autorización no queda dispersa en la lógica de negocio.
 
-- 🎨 **[ORBIT-UI](https://github.com/HC-ONLINE/ORBIT-UI)**: Design system centrado en contratos explícitos y escalabilidad visual.
+- 🎨 **[ORBIT-UI](https://github.com/HC-ONLINE/ORBIT-UI)**  
+  Sistema de diseño basado en contratos explícitos y tokens semánticos.  
+  Construido para mantener consistencia visual y escalabilidad sin depender de abstracciones complejas o frameworks pesados.
 
 ---
 
