@@ -20,30 +20,31 @@ Desarrollador e investigador especializado en la intersección entre la **seguri
 
 ---
 
-## 2) Principios
+## 2) Filosofía de Desarrollo & Principios
 
-Los principios guían cómo diseño y mantengo mis proyectos. Son aplicables tanto al código como al proceso de trabajo y las decisiones arquitectónicas.
+Mis decisiones arquitectónicas no son aleatorias. Se basan en un conjunto de reglas que garantizan la integridad y longevidad del software.
 
-- Seguridad por diseño  
-  Construir protecciones desde la arquitectura — minimizar superficie de ataque, validación temprana y principios de privilegio mínimo.
+- Seguridad & Ética por Diseño
 
-- Privacidad y uso responsable  
-  Recopilar y procesar solo lo necesario; herramientas pensadas para auditoría ética y educación, no para abuso.
+  - **Privilegio Mínimo:** Diseño sistemas donde cada componente tiene solo el acceso necesario. La seguridad no es un "feature" final, es el cimiento de la validación temprana.
 
-- Dependencias con justificación explícita  
-  Evito introducir librerías si no aportan una ventaja clara y auditable; prefiero asumir complejidad controlada antes que dependencias opacas o difíciles de mantener.
+  - **Auditoría Ética:** Desarrollo herramientas para la transparencia y la educación. Mis proyectos incluyen límites de uso y advertencias para prevenir el abuso y fomentar la responsabilidad.
 
-- Observabilidad y trazabilidad  
-  Telemetría, logs y reportes explicables para auditorías reproducibles y evaluación real de riesgo.
+  - **Privacidad Radical:** Recolección mínima de datos. Si un dato no es crítico para la función, no se procesa ni se almacena.
 
-- Simplicidad y calidad mantenible  
-  Preferir soluciones claras y refactorizar cuando la complejidad crece.
+- Arquitectura & Mantenibilidad
 
-- Transparencia y colaboración abierta  
-  Documentación, pruebas y apertura a contribuciones (issues/PRs).
+  - **Dependencias Justificadas:** Evito incluir dependencias innecesarias. Prefiero asumir complejidad controlada en código propio antes que introducir dependencias opacas que comprometan la seguridad o la auditabilidad.
 
-- Ética y responsabilidad  
-  No facilitar usos maliciosos; incluir advertencias y límites de uso en herramientas que puedan ser sensibles.
+  - **Simplicidad Evolutiva:** Priorizo soluciones claras y legibles. Si la complejidad crece, la refactorización es obligatoria para mantener la deuda técnica bajo control.
+
+  - **Contratos Explícitos:** Ya sea en APIs o en sistemas de diseño, creo en interfaces claras que reduzcan la ambigüedad.
+
+- Observabilidad & Transparencia
+
+  - **Trazabilidad:** Un sistema que no se puede medir, no se puede asegurar. Implemento telemetría y logs explicables para auditorías reproducibles.
+
+  - **Open Source de Calidad:** Documentación rigurosa y pruebas exhaustivas. El código abierto es mi estándar para fomentar la colaboración y la revisión por pares.
 
 ---
 
