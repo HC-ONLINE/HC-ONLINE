@@ -1,21 +1,22 @@
 # 👋 ¡Hola! Soy Andres Henriquez (HC-ONLINE)
 
-Soy **desarrollador e investigador** centrado en seguridad y arquitectura de aplicaciones web. Me apasiona construir herramientas prácticas y elegantes para auditoría, orquestación y diseño de software mantenible.
+Desarrollador e investigador especializado en la intersección entre la **seguridad ofensiva** y la **arquitectura de software**. Mi enfoque se centra en construir soluciones mantenibles, diseñando herramientas de auditoría, orquestación de LLMs y sistemas de identidad donde la seguridad no es un parche, sino el cimiento
 
 ---
 
 ## 1) Sobre mí — Resumen rápido
 
-- 👨‍💻 **Rol:** Desarrollador backend y de seguridad, investigador de ciberseguridad y con experiencia en prácticas DevOps.
+- 👨‍💻 **Rol:** Desarrollador backend enfocado en seguridad aplicada, diseño de APIs, control de acceso (IAM) y construcción de herramientas de auditoría.
 
-- 🔭 **Actualmente trabajando en:** 
-  herramientas de reconocimiento y auditoría de seguridad ([CiberWebScan](https://github.com/HC-ONLINE/CiberWebScan), [LexGuard](https://github.com/HC-ONLINE/LexGuard)),
-  orquestación de LLMs ([ModelRouter](https://github.com/HC-ONLINE/ModelRouter))
-  y sistemas de gestión de identidad y acceso (IAM: [AccessManager](https://github.com/HC-ONLINE/AccessManager), [PermissionManager](https://github.com/HC-ONLINE/PermissionManager)).
+- 🔭 **Actualmente trabajando en:**
 
-- 🌱 **Enfoque actual:** Consolidación de frontend moderno (Astro, Tailwind) y profundización en prácticas avanzadas de seguridad backend: rate limiting y control de acceso granular.
+  - **Auditoría y superficie de ataque:** herramientas como [CiberWebScan](https://github.com/HC-ONLINE/CiberWebScan) y [LexGuard](https://github.com/HC-ONLINE/LexGuard) enfocadas en análisis pasivo y detección de riesgo real.  
+  - **Orquestación de modelos:** [ModelRouter](https://github.com/HC-ONLINE/ModelRouter), centrado en routing, fallback y observabilidad de LLMs.  
+  - **Gestión de identidad (IAM):** sistemas de autenticación ([AccessManager](https://github.com/HC-ONLINE/AccessManager)) y autorización ([PermissionManager](https://github.com/HC-ONLINE/PermissionManager)) granular con separación clara entre autenticación y permisos.
 
-- 💬 **Puedo ayudar con:** Mentoría en seguridad, revisión de arquitectura backend, diseño de APIs y contribuciones a open source.
+- 🌱 **Enfoque actual:** Profundización en seguridad backend: rate limiting, control de acceso granular (RBAC/ABAC) y diseño de APIs resilientes con observabilidad.
+
+- 💬 **Puedo ayudar con:** Revisión de arquitectura backend, diseño de APIs seguras, modelado de autorización (IAM) y contribuciones técnicas a proyectos open source.
 
 ---
 
