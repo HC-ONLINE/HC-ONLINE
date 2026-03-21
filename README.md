@@ -105,9 +105,16 @@ No utilizo herramientas por tendencia, sino por control y adecuación al problem
 
 ## 5) Contacto y Colaboración
 
-- **¿Buscas colaborar?** Abre un issue o envía un PR en mis proyectos abiertos.  
+- **Colaboración técnica:**  
+  Abre un issue o PR en los repositorios. Priorizo contribuciones que mejoren seguridad, arquitectura, trazabilidad del sistema y nuevas funcionalidades.
 
-- **Trabajo profesional:** Escríbeme detallando objetivos y alcance a mi email. ![Available for hire](https://img.shields.io/badge/Available%20for%20hire-yes-brightgreen)
+- **Trabajo profesional:**  
+  Disponible para proyectos relacionados con:
+  - diseño de APIs seguras  
+  - sistemas de autorización (IAM)  
+  - herramientas de auditoría y análisis de seguridad  
+
+  Contacto directo con contexto claro (objetivo, alcance, restricciones técnicas).
 
 📧 **Email:** [henriquezandres856@gmail.com](mailto:henriquezandres856@gmail.com)
 
