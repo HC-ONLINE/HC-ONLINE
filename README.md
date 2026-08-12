@@ -128,6 +128,7 @@ My projects tend to explore practical engineering problems around system archite
 </td>
 </tr>
 </table>
+
 ---
 
 # Featured Projects
