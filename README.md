@@ -48,40 +48,45 @@ My projects tend to explore practical engineering problems around system archite
 
 # Areas of Focus
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-## Backend Engineering
+<h3>Backend Engineering</h3>
 
-* Python
-* FastAPI
-* Java
-* Spring Boot
-* Spring Security
-* REST APIs
-* API architecture
-* Authentication and authorization
-* Docker
-* Redis
-* Observability
+<ul>
+<li>Python</li>
+<li>FastAPI</li>
+<li>Java</li>
+<li>Spring Boot</li>
+<li>Spring Security</li>
+<li>REST APIs</li>
+<li>API architecture</li>
+<li>Authentication and authorization</li>
+<li>Docker</li>
+<li>Redis</li>
+<li>Observability</li>
+</ul>
 
 </td>
+
 <td width="50%" valign="top">
 
-## Security
+<h3>Security</h3>
 
-* Web application security
-* Security assessment
-* Technology fingerprinting
-* Vulnerability intelligence
-* CVE analysis
-* PII detection and data exposure
-* IAM
-* JWT
-* RBAC
-* Security testing
-* API security
+<ul>
+<li>Web application security</li>
+<li>Security assessment</li>
+<li>Technology fingerprinting</li>
+<li>Vulnerability intelligence</li>
+<li>CVE analysis</li>
+<li>PII detection and data exposure</li>
+<li>IAM</li>
+<li>JWT</li>
+<li>RBAC</li>
+<li>Security testing</li>
+<li>API security</li>
+</ul>
 
 </td>
 </tr>
@@ -89,36 +94,40 @@ My projects tend to explore practical engineering problems around system archite
 <tr>
 <td width="50%" valign="top">
 
-## AI Infrastructure
+<h3>AI Infrastructure</h3>
 
-* LLM provider abstraction
-* Multi-provider orchestration
-* Streaming
-* Automatic fallback
-* Rate limiting
-* Resilience patterns
-* Provider adapters
-* Observability
+<ul>
+<li>LLM provider abstraction</li>
+<li>Multi-provider orchestration</li>
+<li>Streaming</li>
+<li>Automatic fallback</li>
+<li>Rate limiting</li>
+<li>Resilience patterns</li>
+<li>Provider adapters</li>
+<li>Observability</li>
+</ul>
 
 </td>
+
 <td width="50%" valign="top">
 
-## Frontend Engineering
+<h3>Frontend Engineering</h3>
 
-* Astro
-* TypeScript
-* Tailwind CSS
-* HTML/CSS
-* Design systems
-* Design tokens
-* Responsive interfaces
-* Interactive web experiences
-* Frontend architecture
+<ul>
+<li>Astro</li>
+<li>TypeScript</li>
+<li>Tailwind CSS</li>
+<li>HTML/CSS</li>
+<li>Design systems</li>
+<li>Design tokens</li>
+<li>Responsive interfaces</li>
+<li>Interactive web experiences</li>
+<li>Frontend architecture</li>
+</ul>
 
 </td>
 </tr>
 </table>
-
 ---
 
 # Featured Projects
