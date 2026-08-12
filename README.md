@@ -1,139 +1,303 @@
-# 👋 ¡Hola! Soy Andres Henriquez (HC-ONLINE)
+# Hi — I’m Andres Henriquez (HC-ONLINE)
 
-Desarrollador e investigador especializado en la intersección entre la **seguridad ofensiva** y la **arquitectura de software**. Mi enfoque se centra en construir soluciones mantenibles, diseñando herramientas de auditoría, orquestación de LLMs y sistemas de identidad donde la seguridad no es un parche, sino el cimiento
+## Software Engineer — Backend, Security & AI Infrastructure
 
----
+I build backend systems, security-oriented tools, AI infrastructure, and modern web experiences.
 
-## 1) Sobre mí — Resumen rápido
+My primary focus is **Python and Java backend development**, with a strong interest in **application security, IAM, web security, data security, and LLM infrastructure**.
 
-- 👨‍💻 **Rol:** Desarrollador backend enfocado en seguridad aplicada, diseño de APIs, control de acceso (IAM) y construcción de herramientas de auditoría.
+I also build frontend experiences using **Astro, TypeScript, and Tailwind CSS**, with particular interest in frontend architecture, design systems, responsive interfaces, and interactive web experiences.
 
-- 🔭 **Actualmente trabajando en:**
-
-  - **Auditoría y superficie de ataque:** herramientas como [CiberWebScan](https://github.com/HC-ONLINE/CiberWebScan) y [LexGuard](https://github.com/HC-ONLINE/LexGuard) enfocadas en análisis pasivo y detección de riesgo real.  
-  - **Orquestación de modelos:** [ModelRouter](https://github.com/HC-ONLINE/ModelRouter), centrado en routing, fallback y observabilidad de LLMs.  
-  - **Gestión de identidad (IAM):** sistemas de autenticación ([AccessManager](https://github.com/HC-ONLINE/AccessManager)) y autorización ([PermissionManager](https://github.com/HC-ONLINE/PermissionManager)) granular con separación clara entre autenticación y permisos.
-
-- 🌱 **Enfoque actual:** Profundización en seguridad backend: rate limiting, control de acceso granular (RBAC/ABAC) y diseño de APIs resilientes con observabilidad.
-
-- 💬 **Puedo ayudar con:** Revisión de arquitectura backend, diseño de APIs seguras, modelado de autorización (IAM) y contribuciones técnicas a proyectos open source.
+My projects tend to explore practical engineering problems around system architecture, security boundaries, resilience, automation, and maintainability.
 
 ---
 
-## 2) Filosofía de Desarrollo & Principios
+## Areas of Focus
 
-Mis decisiones arquitectónicas no son aleatorias. Se basan en un conjunto de reglas que garantizan la integridad y longevidad del software.
+### Backend Engineering
 
-- Seguridad & Ética por Diseño
+- Python
+- FastAPI
+- Java
+- Spring Boot
+- Spring Security
+- REST APIs
+- API architecture
+- Authentication and authorization
+- Docker
+- Redis
+- Observability
 
-  - **Privilegio Mínimo:** Diseño sistemas donde cada componente tiene solo el acceso necesario. La seguridad no es un "feature" final, es el cimiento de la validación temprana.
+### Security
 
-  - **Auditoría Ética:** Desarrollo herramientas para la transparencia y la educación. Mis proyectos incluyen límites de uso y advertencias para prevenir el abuso y fomentar la responsabilidad.
+- Web application security
+- Security assessment
+- Technology fingerprinting
+- Vulnerability intelligence
+- CVE analysis
+- PII detection and data exposure
+- IAM
+- JWT
+- RBAC
+- Security testing
+- API security
 
-  - **Privacidad Radical:** Recolección mínima de datos. Si un dato no es crítico para la función, no se procesa ni se almacena.
+### AI Infrastructure
 
-- Arquitectura & Mantenibilidad
+- LLM provider abstraction
+- Multi-provider orchestration
+- Streaming
+- Automatic fallback
+- Rate limiting
+- Resilience patterns
+- Provider adapters
+- Observability
 
-  - **Dependencias Justificadas:** Evito incluir dependencias innecesarias. Prefiero asumir complejidad controlada en código propio antes que introducir dependencias opacas que comprometan la seguridad o la auditabilidad.
+### Frontend Engineering
 
-  - **Simplicidad Evolutiva:** Priorizo soluciones claras y legibles. Si la complejidad crece, la refactorización es obligatoria para mantener la deuda técnica bajo control.
-
-  - **Contratos Explícitos:** Ya sea en APIs o en sistemas de diseño, creo en interfaces claras que reduzcan la ambigüedad.
-
-- Observabilidad & Transparencia
-
-  - **Trazabilidad:** Un sistema que no se puede medir, no se puede asegurar. Implemento telemetría y logs explicables para auditorías reproducibles.
-
-  - **Open Source de Calidad:** Documentación rigurosa y pruebas exhaustivas. El código abierto es mi estándar para fomentar la colaboración y la revisión por pares.
-
----
-
-## 3) Tecnologías y herramientas
-
-No utilizo herramientas por tendencia, sino por control y adecuación al problema.
-
-### Backend & Seguridad
-
-- **Python:** desarrollo de herramientas de auditoría, análisis de superficie de ataque y procesamiento de datos.  
-
-- **Java + Spring Boot:** construcción de APIs robustas con enfoque en control de acceso, validación y separación de responsabilidades.  
-
-### Arquitectura & Sistemas
-
-- **Diseño de APIs:** contratos explícitos, validación temprana y manejo de errores consistente.  
-
-- **Control de acceso (IAM):** implementación de modelos RBAC/ABAC, separación entre autenticación y autorización, y evaluación de JWT vs sesiones según contexto.  
-
-- **Rate limiting & resiliencia:** estrategias de limitación, control de abuso y diseño tolerante a fallos.  
-
-- **Orquestación de LLMs:** routing, fallback entre proveedores y observabilidad de ejecución.
-
-### Infraestructura & Entrega
-
-- **Docker:** aislamiento de servicios y entornos reproducibles.  
-- **GitHub Actions:** automatización de builds, testing y despliegues.
-
-### Frontend (enfoque complementario)
-
-- **Astro + Tailwind:** construcción de interfaces ligeras orientadas a rendimiento, con sistemas de estilos basados en tokens.
+- Astro
+- TypeScript
+- Tailwind CSS
+- HTML/CSS
+- Design systems
+- Design tokens
+- Responsive interfaces
+- Interactive web experiences
+- Frontend architecture
 
 ---
 
-## 4) Proyectos destacados
+## Featured Projects
 
-- 🚀 **[ModelRouter](https://github.com/HC-ONLINE/ModelRouter)**  
-  Orquestador de LLMs orientado a control y resiliencia. Permite routing entre múltiples proveedores (Groq, OpenRouter, Ollama), manejo de fallbacks y ejecución con streaming.  
-  Diseñado con foco en observabilidad y control del flujo, evitando dependencias rígidas a un único proveedor.
+### CiberWebScan
 
-- 🛡️ **[CiberWebScan](https://github.com/HC-ONLINE/CiberWebScan)**  
-  Herramienta de reconocimiento pasivo enfocada en análisis de superficie de ataque sin interacción directa con el objetivo.  
-  Prioriza reducción de ruido, recolección estructurada de información y generación de datos útiles para auditorías reales.
+#### Web Security Assessment & Reconnaissance
 
-- 🧠 **[LexGuard – PII Scanner](https://github.com/HC-ONLINE/LexGuard)**  
-  Motor CLI-first para detección y correlación de PII. Diseñado para identificar riesgo real en lugar de coincidencias superficiales, con enfoque en trazabilidad y análisis contextual.  
-  Orientado a escenarios de cumplimiento y auditoría de datos sensibles.
+A Python security toolkit for web application assessment that combines reconnaissance, technology fingerprinting, security analysis, vulnerability intelligence, web scraping, and controlled security testing.
 
-- 🔑 **IAM Suite ([AccessManager](https://github.com/HC-ONLINE/AccessManager) / [PermissionManager](https://github.com/HC-ONLINE/PermissionManager))**  
-  Implementación modular de autenticación y autorización con separación estricta de responsabilidades.  
-  Enfocado en modelos de permisos granulares (RBAC/ABAC) y diseño de sistemas donde la autorización no queda dispersa en la lógica de negocio.
+Key capabilities include:
 
-- 🎨 **[ORBIT-UI](https://github.com/HC-ONLINE/ORBIT-UI)**  
-  Sistema de diseño basado en contratos explícitos y tokens semánticos.  
-  Construido para mantener consistencia visual y escalabilidad sin depender de abstracciones complejas o frameworks pesados.
+- Technology fingerprinting
+- SSL/TLS analysis
+- Security headers assessment
+- CVE correlation
+- Static and dynamic web scraping
+- XSS testing
+- SQL injection analysis
+- Directory enumeration
+- Path traversal testing
+- Subdomain enumeration
+- Command injection testing
+- REST API
+- CLI automation
+- JSON, CSV, JSONL, and HTML exports
 
----
+CiberWebScan is an active project and represents my main work around **web security automation and attack-surface analysis**.
 
-## 5) Contacto y Colaboración
-
-- **Colaboración técnica:**  
-  Abre un issue o PR en los repositorios. Priorizo contribuciones que mejoren seguridad, arquitectura, trazabilidad del sistema y nuevas funcionalidades.
-
-- **Trabajo profesional:**  
-  Disponible para proyectos relacionados con:
-  - diseño de APIs seguras  
-  - sistemas de autorización (IAM)  
-  - herramientas de auditoría y análisis de seguridad  
-
-  Contacto directo con contexto claro (objetivo, alcance, restricciones técnicas).
-
-📧 **Email:** [henriquezandres856@gmail.com](mailto:henriquezandres856@gmail.com)
+[Repository](https://github.com/HC-ONLINE/CiberWebScan)
 
 ---
 
-## English — Quick
+### ModelRouter
 
-# 👋 Hi — I’m Andres Henriquez (HC-ONLINE)
+#### Multi-Provider LLM Gateway — Proof of Concept
 
-Developer & researcher focused on web security and reliable software architecture. I build practical tools for reconnaissance, orchestration and design systems.
+An asynchronous HTTP API designed to abstract multiple LLM providers behind a single interface.
 
-## Core Principles
+The project currently explores integrations with:
 
-- Security by design — minimize attack surface and apply least privilege.  
-- Privacy & responsible use — collect/process only what’s necessary; tools for ethical auditing and education.
-- Dependencies with explicit justification — I avoid libraries unless they provide a clear, auditable benefit, preferring controlled complexity over opaque dependencies.
-- Observability & traceability — telemetry and logs to enable reproducible audits.  
-- Simplicity & maintainability — prefer clear, auditable solutions and refactor when needed.  
-- Transparency & collaboration — docs, tests and open contribution flow.  
-- Ethics & responsibility — discourage misuse; include use limits and warnings for sensitive tools.
+- Groq
+- OpenRouter
+- OpenAI
+- Gemini
+- Ollama
 
-- **Contact:** [henriquezandres856@gmail.com](mailto:henriquezandres856@gmail.com)
+Its architecture focuses on infrastructure concerns such as:
+
+- Automatic provider fallback
+- Server-Sent Events streaming
+- Rate limiting
+- Temporary provider blocklisting
+- Exponential backoff
+- Prometheus metrics
+- Structured logging
+- Redis integration
+- Docker deployment
+
+ModelRouter is a **proof of concept** exploring provider-agnostic LLM infrastructure, resilience, and observability.
+
+[Repository](https://github.com/HC-ONLINE/ModelRouter)
+
+---
+
+### LexGuard
+
+#### PII Detection & Risk Correlation — Completed Proof of Concep
+
+A completed proof of concept for deterministic detection of Personally Identifiable Information and contextual risk analysis in files and repositories.
+
+The project explores data exposure from a security perspective using techniques such as:
+
+- Pattern detection
+- Prefix and length validation
+- Luhn validation
+- Entropy analysis
+- Contextual validation
+- Cross-PII correlation
+- Explainable risk classification
+
+Current detection covers:
+
+- Colombian identification numbers
+- Colombian mobile numbers
+- Email addresses
+- Credit card numbers
+
+LexGuard is **no longer under active development**. It remains public as a reference implementation for CLI architecture, deterministic PII detection, and explainable risk analysis.
+
+[Repository](https://github.com/HC-ONLINE/LexGuard)
+
+---
+
+### DemoFactory
+
+#### Frontend Architecture & Web Experience Laboratory
+
+A shared Astro-based environment for building and presenting multiple independent web experiences from a single project.
+
+Each demo can maintain its own:
+
+- Components
+- Visual identity
+- Content
+- Types
+- Interaction logic
+- Data and helpers
+
+while the platform provides common infrastructure for routing, internationalization, layouts, metadata, and shared styling.
+
+The collection includes experiences such as:
+
+- **Elite Vows** — premium editorial wedding invitation
+- **Lumina** — cinematic visual-art portfolio
+- **TechNexus Consulting** — B2B corporate landing page
+- **Aeterna** — immersive historical timeline
+- **LyricFlow** — interactive music experience
+- **TypoCraft** — typography-focused Markdown editor
+- **ORBIT-UI** — CSS-first design system
+- **AuraWeather** — immersive weather interface
+- **PixelPress** — gaming publication
+- **NF Archive** — immersive music discography experience
+
+DemoFactory represents the frontend side of my work, combining **visual design, interaction, responsive development, content architecture, and reusable frontend foundations**.
+
+[Repository](https://github.com/HC-ONLINE/DemoFactory) · [Live demos](https://hc-online.github.io/DemoFactory/)
+
+---
+
+## Other Projects
+
+### AccessManager
+
+Authentication architecture study focused on Spring Boot and Spring Security, exploring stateless JWT authentication and stateful session-based authentication.
+
+[Repository](https://github.com/HC-ONLINE/AccessManager)
+
+### PermissionManager
+
+Authorization architecture study exploring RBAC, granular permissions, JWT-based authentication, sessions, and policy-based authorization.
+
+[Repository](https://github.com/HC-ONLINE/PermissionManager)
+
+### ORBIT-UI
+
+CSS-first design system built with Astro and Tailwind CSS, focused on semantic design tokens, reusable components, accessibility, and explicit component states.
+
+[Repository](https://github.com/HC-ONLINE/ORBIT-UI)
+
+---
+
+## Technical Stack
+
+### Primary
+
+#### Python
+
+FastAPI · CLI development · automation · web security tooling · data processing
+
+#### Java
+
+Spring Boot · Spring Security · Maven · REST APIs · authentication · authorization
+
+### Frontend
+
+Astro · TypeScript · Tailwind CSS · HTML · CSS · Markdown/MDX
+
+### Infrastructure & Tooling
+
+Docker · Docker Compose · Redis · Prometheus · GitHub Actions · Git
+
+### Security
+
+Web security · IAM · JWT · RBAC · CVE analysis · PII detection · security assessment · API security
+
+### AI Infrastructure
+
+LLM orchestration · provider abstraction · streaming · fallback strategies · rate limiting · observability
+
+---
+
+## Engineering Approach
+
+### Understand the problem before introducing abstractions
+
+I prefer understanding the actual architectural problem before introducing a new pattern, framework, or abstraction.
+
+### Keep security boundaries explicit
+
+Authentication, authorization, data protection, and application security should be treated as distinct concerns with explicit boundaries.
+
+### Prefer reusable foundations
+
+Reusable components and infrastructure should solve an actual recurring problem rather than introduce abstraction for its own sake.
+
+### Design for failure
+
+Backend and infrastructure systems should account for provider failures, rate limits, unavailable dependencies, and degraded states instead of assuming that every external service is always available.
+
+### Build with maintainability in mind
+
+I value explicit behavior, modular architecture, clear interfaces, and systems that can be understood and extended without unnecessary complexity.
+
+---
+
+## Current Areas of Development
+
+- Backend engineering with Python and Java
+- Application and web security
+- IAM and authorization systems
+- LLM infrastructure and multi-provider systems
+- Resilient API architecture
+- Frontend architecture with Astro and Tailwind CSS
+- Design systems and reusable UI foundations
+
+---
+
+## Portfolio
+
+For a complete view of my projects and frontend work:
+
+**[View my complete portfolio](https://hc-online.github.io/es/)**
+
+---
+
+## About This Profile
+
+Not every repository represents a production-ready product.
+
+This profile intentionally distinguishes between **active projects, proofs of concept, architectural studies, and frontend experiments**.
+
+The featured projects are selected to represent the areas I am most interested in professionally:
+**Backend · Security · AI Infrastructure · Frontend Engineering**
+
+Additional experiments and completed projects remain available through the repositories and the complete portfolio.
